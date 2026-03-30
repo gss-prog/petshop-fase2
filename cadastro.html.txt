@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cadastro</title>
+<meta charset="UTF-8">
+</head>
+<body>
+
+<h2>Cadastro do Cliente e Pet</h2>
+
+<form>
+
+<h3>Cliente</h3>
+<input type="text" placeholder="Nome" required><br><br>
+<input type="text" placeholder="CPF" required><br><br>
+<input type="email" placeholder="E-mail" required><br><br>
+<input type="tel" placeholder="Telefone"><br><br>
+
+<label>Sexo:</label>
+<input type="radio" name="sexo"> Masculino
+<input type="radio" name="sexo"> Feminino
+
+<h3>Pet</h3>
+<input type="text" placeholder="Nome do Pet" required><br><br>
+<input type="text" placeholder="Raça"><br><br>
+<input type="number" placeholder="Idade"><br><br>
+
+<button type="submit">Cadastrar</button>
+
+</form>
+
+</body>
+</html>

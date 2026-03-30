@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Agendamento</title>
+<meta charset="UTF-8">
+</head>
+<body>
+
+<h2>Agendamento</h2>
+
+<form>
+
+<label>Serviço:</label><br>
+<input type="radio" name="servico"> Banho
+<input type="radio" name="servico"> Tosa
+
+<br><br>
+
+<label>Tipo:</label><br>
+<input type="radio" name="tipo"> Tele-busca
+<input type="radio" name="tipo"> Entregar no local
+
+<br><br>
+
+<label>Data:</label>
+<input type="date" required>
+
+<br><br>
+
+<label>Hora:</label>
+<input type="time" required>
+
+<br><br>
+
+<button onclick="confirmar()">Agendar</button>
+
+</form>
+
+<script>
+function confirmar(){
+  alert("Agendamento realizado com sucesso!");
+}
+</script>
+
+</body>
+</html>
